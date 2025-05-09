@@ -1,8 +1,14 @@
 import vuetify, { transformAssetUrls } from 'vite-plugin-vuetify'
-import vuetifyPlugin from 'vite-plugin-vuetify'
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  compatibilityDate: '2024-11-01',
+  app: {
+    head: {
+      script: [
+        { src: "https://cdn.jsdelivr.net/npm/vue@latest/dist/vue.esm-browser.js" },
+        { src: "https://cdn.jsdelivr.net/npm/vuetify@3.8/dist/vuetify.esm.js" }
+      ]
+    }
+  },
   devtools: { enabled: false },
   build: {
     transpile: ['vuetify'],
@@ -20,7 +26,6 @@ export default defineNuxtConfig({
     },
   ],
   vite: {
-    plugins: [vuetifyPlugin()],
     vue: {
       template: {
         transformAssetUrls,

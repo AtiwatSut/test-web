@@ -9,7 +9,7 @@
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
     "push": "git add . && git commit -m 'deploy' && git push origin mian",
-    "deploy": "npm run generate && npm run push && gh-pages -d .output/public"
+    "deploy": "npm run generate && gh-pages -d .output/public"
   },
   "dependencies": {
     "@mdi/font": "^7.4.47",
