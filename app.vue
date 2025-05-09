@@ -24,10 +24,10 @@
   </div>
 </template>
 <script setup>
-  const items = ref( [
-        { title: 'Click Me' },
-        { title: 'Click Me' },
-        { title: 'Click Me' },
-        { title: 'Click Me 2' },
-      ])
+const items = ref( [
+  { title: 'Click Me' },
+  { title: 'Click Me' },
+  { title: 'Click Me' },
+  { title: 'Click Me 2' },
+])
 </script>
