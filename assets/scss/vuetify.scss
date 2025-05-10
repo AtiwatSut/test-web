@@ -1,0 +1,31 @@
+html {
+   font-family: 'Noto Sans Thai',"Roboto", sans-serif!important;
+}
+
+.v-application {
+   background: transparent;
+}
+
+.v-card { background: white; }
+
+.v-card--variant-outlined {
+   border: 1px solid #00000039 !important;
+   box-shadow: none !important;
+}
+
+.v-navigation-drawer.drawer-action-right {
+   position:fixed!important;
+   top:64px!important;
+   bottom:0px!important; 
+   height:auto!important
+}
+.v-container {
+   max-width: 1200px;
+}
+
+.cursor { cursor: pointer }
+
+.v-field--disabled {
+   background-color: #EEEEEE;
+   opacity: 1;
+}
