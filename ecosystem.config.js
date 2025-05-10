@@ -1,7 +1,7 @@
 module.exports = {
   apps: [
     {
-      name: 'O2ConfigApp',
+      name: 'App',
       port: '3000',
       exec_mode: 'cluster',
       instances: 'max',
